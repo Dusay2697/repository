@@ -1,0 +1,513 @@
+@charset "UTF-8";
+
+/* Reset some things first */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, pre, code, address, variable, form, fieldset, blockquote
+{
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+ol
+{
+	margin-left: 1.4em;
+	list-style: decimal;
+}
+
+ul
+{
+	margin-left: 1.4em;
+	list-style: square;
+}
+
+a img, img
+{
+	border: 0;
+}
+
+body
+{
+}
+
+div.container
+{
+	max-width: 900px;
+	margin: 5px auto;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div.home-column-left
+{
+    width: 63%;
+    float: left;
+    margin-right: 2.5%;
+}
+
+div.home-column-right
+{
+    width: 300px;
+    float: left;
+	margin-top: 24px;
+}
+
+#header
+{
+	width: 100%;
+	max-height: 110px;
+}
+
+/* Site title */
+h1 span.first_part
+{
+	/*font-size: 3.5em; */
+	font-size: 50px;
+	color: #022154;
+}
+
+h1 span.middle_part
+{
+	font-size: 50px;
+	color: #00adef;
+}
+
+h1 span.last_part
+{
+	font-size: 26px;
+	color: #022154;
+}
+
+/* Other titles */
+h2
+{
+	font-size: 25px;
+	font-family: verdana;
+	color: #00ADEF;
+	margin-bottom: 3px;
+}
+
+h3
+{
+	font-size: 20px;
+	color: #022154;
+}
+
+a, a:visited
+{
+	color: #022154;
+	text-decoration: none;
+}
+
+a:hover, a:hover h3
+{
+    text-decoration: underline;
+}
+
+div.product_tile
+{
+	width: 98%;
+	border: 1px solid #aaaaaa;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+td.project_left
+{
+	text-align: center;
+	vertical-align: top;
+}
+
+td.project_right
+{
+	padding-left: 15px;
+	vertical-align: top;
+}
+
+.floatLeft
+{
+	float: left;
+}
+
+.floatRight
+{
+	float: right;
+}
+
+span.twitterFollow {
+	margin-top: 3px;
+}
+
+a img
+{
+	border: none;
+}
+
+span.download_filesize
+{
+	font-size: 0.8em;
+}
+
+#menuBar {
+	margin-top: 5px;
+    width: 100%;
+	margin-bottom: 20px;
+}
+
+#menuBar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menuBar ul li {
+	float: left;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #888888;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#menuBar ul li.first {
+	border-left: none;
+}
+
+#menuBar ul li.last {
+	border-right: none;
+}
+
+#menuBar ul li:hover {
+	background-color: #888888;
+}
+
+#menuBar ul li a {
+	color: #ffffff;
+    height: 25px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#menuBar ul li a:hover {
+	text-decoration: none;
+}
+
+#menuBar ul li {
+	color: #ffffff;
+}
+
+div.clears {
+	clear: both;
+}
+
+/*
+#footerWrap {
+	background-color: #555555;
+	width: 100%;
+}
+*/
+
+#footer
+{
+	margin-top: 20px;
+	padding: 20px;
+	color: white;
+	max-width: 900px;
+    background-color: #555555;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#footer span {
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #888888;
+	margin: 0;
+}
+
+#footer span.first {
+	border-left: none;
+}
+
+#footer span.last {
+	border-right: none;
+}
+
+#footer a {
+	color: #ffffff;
+}
+
+/* Small fix for position of the image in the no canvas version of the pie graph */
+#no_canvas
+{
+	margin-top: 0 !important;
+}
+
+.clear
+{
+	clear: both;
+}
+
+canvas.tutCanvas, div.tutCanvas {
+    border: 1px solid #cccccc;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+/* Ensure that list item in the content area do have some indent */
+div.content li {
+    margin-left: 15px;
+    padding: 3px;
+}
+
+/* Style for codebox textarea */
+textarea.codeBox {
+    padding: 10px;
+	width: 875px;
+}
+
+/* Tutorial nav table styles */
+table.tutorialNav {
+    width: 100%;
+}
+
+table.tutorialNav td {
+    text-align: center;
+}
+
+button.bigButton {
+    padding: 10px;
+}
+
+#tut9BasicBackgroundImage {
+    background-image: url(../image/tutorials/basic_wheel_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+}
+
+#tut9PositionedContainer {
+    position: relative;
+    width: 300px;
+}
+
+#tut9PositionedCanvas {
+    z-index: 1;
+}
+
+#tut9PositionedPointer {
+    position: absolute;
+    left: 125px;
+    top: 10px;
+    z-index: 999;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+#main_canvas {
+    border: none;
+    background-image: url(../image/home_wheel_background.png);
+    background-repeat:no-repeat;
+}
+
+/* Styles for the example winning wheel */
+/* Sets the background image for the wheel */
+div.example_wheel table
+{
+    margin: 0 auto;
+}
+
+#spin_button{
+    margin-left: 4px;
+}
+
+/* Small fix for the winwheel as when displayed in the site the canvas sits a few pixles higher than wanted */
+td.the_wheel canvas.the_canvas {
+	margin-top: 3px;
+}
+
+td.the_wheel
+{
+	background: url(../image/examples/wheel_back.png) 50% 50% no-repeat;
+}
+
+td.small_wheel
+{
+	background: url(../image/examples/wheel_back_small.png) 50% 50% no-repeat;
+}
+
+td.example_hollow_wheel
+{
+	padding-top: 4px;
+    background: url(../image/examples/hollow_wheel_back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+td.example_wheel_of_fortune
+{
+	padding-top: 4px;
+    background: url(../image/examples/fortune_wheel_back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+td.example_segment_image
+{
+	padding-top: 4px;
+    background: url(../image/examples/segment_image_back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+td.example_plain_background
+{
+	padding-top: 4px;
+    background: url(../image/examples/wheel_back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.power_controls
+{
+	margin-right:70px;
+}
+
+div.html5_logo
+{
+	margin-left:70px;
+}
+
+/* Styles for the power selection controls */
+table.power
+{
+	background-color: #cccccc;
+	cursor: pointer;
+	border:1px solid #333333;
+}
+
+table.power th
+{
+	background-color: white;
+	cursor: default;
+}
+
+td.pw1
+{
+	background-color: #6fe8f0;
+}
+
+td.pw2
+{
+	background-color: #86ef6f;
+}
+
+td.pw3
+{
+	background-color: #ef6f6f;
+}
+
+/* Style applied to the spin button once a power has been selected */
+.clickable
+{
+	cursor: pointer;
+}
+
+table.class_table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.class_table th
+{
+    text-align: left;
+    background-color: #d2f2fe;
+}
+
+table.class_table td, table.class_table th {
+    border: solid 1px #cccccc;
+    padding: 5px;
+    vertical-align: top;
+}
+
+table.class_table td
+{
+    padding-bottom: 25px;
+}
+
+div.methods h4 {
+	width: 99%;
+	display: inline-block;
+	padding: 5px;
+	background-color: #d2f2fe;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+div.methods table.class_table th {
+	background-color: transparent;
+}
+
+/* Styles for the news and blog thing on the home page */
+div.sidebar
+{
+    background-color: #ececec;
+}
+
+span.news-blogs-link
+{
+    margin-left: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+table.featured-blog-news td
+{
+    padding: 7px;
+    border: 1px solid silver;
+    background-color: white;
+}
+
+table.featured-blog-news span
+{
+    font-size: 10px;
+    width:100%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+table.example_index
+{
+	border: 1px solid silver;
+	padding: 15px;
+	margin: 10px;
+	height: 250px;
+}
+
+table.example_index img
+{
+	margin-right: 15px;
+}
+
+table.example_index h3
+{
+	margin-bottom: 10px;
+}
+
+/* Ads */
+div.advertisment
+{
+	/* border: 1px solid #ccc; */
+	text-align: center;
+	width: 100%;
+	padding-top: 10px;
+}

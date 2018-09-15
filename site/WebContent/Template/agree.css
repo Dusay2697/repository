@@ -1,0 +1,230 @@
+@charset "EUC-KR";
+
+ .right {
+    position: fixed;
+    left: 280px;
+    bottom:30px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    
+  }
+  .left {
+    position: fixed;
+    right: 280px;
+    bottom:30px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+  }
+  
+  #agree {
+    position :relative;
+    left: 200px;
+    
+  }
+  #login1{
+    position :relative;
+    left: 230px;
+  }
+  #basket {
+    position :relative;
+    left: 260px;
+  }
+  #order {
+    position :relative;
+    left: 290px;
+  }
+  
+  #notice {
+    position :relative;
+    right: 320px;
+  }
+  
+  #faq {
+    position :relative;
+    right: 290px;
+  }
+  #review {
+    position :relative;
+    right: 260px;
+  }
+  #menu {
+ 
+   background: #1c205f;
+   height: 100px;
+   
+  }
+  .sub{
+   
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+  
+  }
+  
+  #site {
+   position: relative;
+   left: 160px;
+  }
+  
+  #club {
+   position: relative;
+   left: 360px;
+  }
+  
+  #view {
+   position: relative;
+   left: 560px;
+  }
+  
+  #sale {
+   position: relative;
+   left: 760px;
+  }
+  
+  #event {
+   position: relative;
+   left: 960px;
+  }
+  #bm {
+   position: relative;
+   top: 50px;
+   border-top: 1px solid;
+  }
+  #banner {
+   position: relative;
+   top: 40px; 
+  }
+  #help {
+   position: relative;
+   left: 320px;
+   top: 60px;
+   background-color: #1c205f;
+   color: white;
+   width: 1000px;
+   height: 30px; 
+   font-weight: bold;
+   line-height: 30px;/*Áß¾Ó¿¡ Á¤·Ä*/
+ 
+  }
+  #agr {
+    position: relative;
+    bottom: 60px;
+   }
+
+   #info {
+    position: relative;
+    bottom: 95px;
+   }
+
+   #ment1 {
+        position: relative;
+        background: rgba(52, 152, 219, 0.51);
+        width: 800px;
+        margin: 20px 20px 20px 0px;
+        padding:20px;
+        text-align: center;
+        font-weight : bold;
+        color: rgb(28,32,95);
+        top:90px;
+        left: 320px;
+        width: 960px;
+        height: 50px;
+        line-height: 50px;
+
+    }
+    #ment21 {
+        position: relative;
+        color: rgb(28,32,95);
+        font-weight : bold;
+        top:190px;
+        left: 330px;
+    
+    }
+    #ment22 {
+        position: relative;
+        color: rgb(28,32,95);
+        font-weight : bold;
+        top:-90px;
+        left: 330px;
+    }
+    #line1 {
+        position: relative;
+        background: rgb(28,32,95);
+        height: 5px;
+        width: 990px;
+        top:180px;
+        left: 320px;
+        
+    }
+    #line2 {
+        position: relative;
+        background: rgb(28,32,95);
+        height: 5px;
+        width: 990px;
+        top:-100px;
+        left: 320px;
+        
+    }
+    #boxx1{
+        position: relative;
+        width: 840px;
+        height: 400px;
+        background: rgb(224, 224, 224);
+        top:200px;
+        left: 390px;
+
+    }
+    #boxx2{
+        position: relative;
+        width: 840px;
+        height: 400px;
+        background: rgb(224, 224, 224);
+        top:-80px;
+        left: 390px;
+    }
+    #box21 {
+        position: relative;
+        width: 780px;
+        height: 320px;
+        left: 415px;
+        top:-180px;
+    }
+    #box22 {
+        position: relative;
+        width: 780px;
+        height: 320px;
+        left: 415px;
+        top:-460px;
+    }
+    #box31 {
+        position: relative;
+        bottom : 50px;
+        left: 425px;
+        top:-175px;
+
+
+    }
+    #box32 {
+        position: relative;
+        bottom : 50px;
+        left: 425px;
+        top:-455px;
+
+    }
+    
+    #btn {
+        position: relative;
+        background: rgb(28,32,95);
+        bottom: 370px;
+        left: 680px; 
+        color: white;
+        width:100px;
+        height:40px;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+
+    }

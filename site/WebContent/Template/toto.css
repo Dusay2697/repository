@@ -1,0 +1,373 @@
+@charset "EUC-KR";
+
+
+
+@charset "utf-8";
+
+/*상단 네비게이션 */
+
+ .right {
+
+    position: fixed;
+
+    left: 280px;
+
+    bottom:30px;
+
+    text-decoration: none;
+
+    color: black;
+
+    font-size: 12px;
+
+    
+
+  }
+
+  .left {
+
+    position: fixed;
+
+    right: 280px;
+
+    bottom:30px;
+
+    text-decoration: none;
+
+    color: black;
+
+    font-size: 12px;
+
+  }
+
+  
+
+  #agree {
+
+    position :relative;
+
+    left: 200px;
+
+    
+
+  }
+
+  #login1{
+
+    position :relative;
+
+    left: 230px;
+
+  }
+
+  #basket {
+
+    position :relative;
+
+    left: 260px;
+
+  }
+
+  #order {
+
+    position :relative;
+
+    left: 290px;
+
+  }
+  
+  #notice {
+    position :relative;
+    right: 320px;
+  }
+
+  #faq {
+
+    position :relative;
+
+    right: 290px;
+
+  }
+
+  #review {
+
+    position :relative;
+
+    right: 260px;
+
+  }
+
+  #menu {
+
+ 
+
+   background: #1c205f;
+
+   height: 100px;
+
+   
+
+  }
+
+  .sub{
+
+   
+
+   text-decoration: none;
+
+   color: white;
+
+   font-size: 20px;
+
+   font-weight: bold;
+
+  
+
+  }
+
+  
+
+  #site {
+
+   position: relative;
+
+   left: 160px;
+
+  }
+
+  
+
+  #club {
+
+   position: relative;
+
+   left: 360px;
+
+  }
+
+  
+
+  #view {
+
+   position: relative;
+
+   left: 560px;
+
+  }
+
+  
+
+  #sale {
+
+   position: relative;
+
+   left: 760px;
+
+  }
+
+  
+
+  #event {
+
+   position: relative;
+
+   left: 960px;
+
+  }
+  
+   #help {
+   position: relative;
+   left: 320px;
+   top: 30px;
+   background-color: #1c205f;
+   color: white;
+   width: 1000px;
+   height: 30px; 
+   font-weight: bold;
+   line-height: 30px;
+ 
+  }
+  
+  #bm {
+   position: relative;
+   top: 30px;
+   border-top: 1px solid;
+  }
+
+/*상단 네비게이션 끝*/
+
+* { margin: 0; padding: 0;  } 
+li { list-style: none; } 
+.left_menu { width: 100px;  position: relative; left: 200px; top: 100px;} 
+.left_menu > li { background: #28324e; color: #fff; text-align: center; line-height: 40px; height: 40px; border-radius: 5px; margin-bottom: 5px; font-size:15px;  } 
+.left_menu > li:hover { color: yellow; } 
+.lm_sub {  margin-top: 5px; display: none;  } 
+.lm_sub li {  color: #000; box-shadow: 2px 2px 2px #888; border-radius: 5px; border: 1px solid #ccc; background: #fff; font-size:15px; } 
+/* Common */
+
+@charset "utf-8";
+
+
+
+/* Common */
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+
+body,input,textarea,select,button,table{font-family:'돋움',dotum,applegothic,sans-serif;font-size:12px;letter-spacing:-1px}
+
+img,fieldset{border:0}
+
+ul,ol{list-style:none}
+
+em,address{font-style:normal}
+
+caption,hr,legend{display:none}
+
+table{border-spacing:0;border-collapse:collapse;table-layout:fixed}
+
+a{color:#44526c;text-decoration:none}
+
+.blind{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:999em}
+
+.ellipsis,.ellp{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+
+
+
+
+
+/* layout */
+
+
+
+/* 버튼 */
+
+
+
+
+
+.btn_poll {display:inline-block;width:130px;height:30px;} 
+
+
+
+
+
+
+
+
+
+
+
+/* 게시판 읽기화면 */
+
+.tb_view{border-top:2px solid #43506c}
+
+.tb_view tr:hover td{background:none}
+
+.tb_view td{text-align:left;font-size:11px;color:#9aa1af;letter-spacing:-1px}
+
+.tb_view strong{margin-right:3px}
+
+.tb_view .title,.tb_view .due_date{padding-left:15px}
+
+.tb_view .title,.tb_view .num_times,.tb_view tr:hover .title,.tb_view tr:hover .num_times{background:#f7f8f9}
+
+.tb_view .due_date,.tb_view .num_part,.tb_view .reward{height:31px;border-bottom:1px solid #b0b0b0}
+
+.tb_view .due_date{color:#666}
+
+.tb_view .due_date strong{color:#9aa1af}
+
+.tb_view .title a{color:#37435d;font-size:12px;font-weight:bold}
+
+.tb_view td.reward{padding-right:42px;text-align:right}
+
+
+
+.scroll_view{overflow:hidden;overflow-y:scroll;position:relative;height:526px;padding:20px 23px; top:50px;}
+
+.poll_bx{position:relative;width:750px;margin:0 auto;letter-spacing:-1px}
+
+.poll_bx h3{height:65px;padding-left:68px;font-size:16px;color:#fff;line-height:65px}
+
+.poll_bx_con{padding:14px 14px 15px; }
+
+
+
+.tb_poll_wrap{width:720px;border:1px solid #011a42}
+
+.tb_poll_bx{width:720px}
+
+.tb_poll_bx th,.tb_reward th{height:27px;border-bottom:0;border-right:1px solid #17417f;color:#6ea5f6;font-size:11px;text-align:center;background:#1c205f;}
+
+.tb_poll_bx td{height:35px;background:#fff;border-left:1px solid #e6e6e6;border-top:1px solid #e6e6e6;*border-top:0;*border-bottom:1px solid #e6e6e6;color:#44526c;font-size:12px;text-align:center}
+
+.tb_poll_bx .inp_wrap{height:35px;position:relative;line-height:35px}
+
+.tb_poll_bx .team1{text-align:right}
+
+.tb_poll_bx .draw,.tb_poll_bx .team2{text-align:left}
+
+.tb_poll_bx label{display:block;overflow:hidden;height:35px}
+
+.tb_poll_bx label .ellp{display:block;overflow:hidden;height:35px;padding:0 1px;line-height:35px;cursor:pointer}
+
+.tb_poll_bx .league label{padding:0 6px}
+
+.tb_poll_bx .team1 .inp_wrap label{padding:0 31px 0 6px}
+
+.tb_poll_bx .team2 .inp_wrap label{padding:0 6px 0 31px}
+
+.tb_poll_bx .draw .inp_wrap label{padding-left:27px}
+
+.tb_poll_bx tr.selected td{border-color:#c4cfde;border-bottom:1px solid #c4cfde;*border-top:1px solid #c4cfde;background:#dceafe}
+
+.tb_poll_bx tr.selected .league,.tb_poll_bx label.selected{color:#333;font-weight:bold}
+
+.tb_poll_bx .inp_radio{position:absolute;top:50%;width:13px;height:13px;margin:-7px 0 0 0}
+
+.tb_poll_bx .team1 .inp_radio{right:10px}
+
+.tb_poll_bx .draw .inp_radio{left:10px}
+
+.tb_poll_bx .team2 .inp_radio{left:10px}
+
+
+
+
+
+.notice{margin:9px 0 0 4px}
+
+.notice li{padding-left:7px; font-size:11px;color:#1c205f;line-height:14px}
+
+
+
+.poll_btn_wrap{position:relative;min-height:36px;padding-top:10px;background:#fff;}
+
+.poll_btn_wrap .notice{margin:0 0 0 4px}
+
+.poll_btn_wrap .btn_poll{position:absolute;top:10px;right:15px}
+
+
+
+.tb_reward_wrap{width:720px;margin-top:14px;border:1px solid #fff;background:#1c205f;}
+
+.tb_reward{width:720px}
+
+.tb_reward td{height:27px;background-color:#fff;border-top:0;border-bottom:1px solid #17417f;border-left:1px solid #17417f;border-right:1px solid #17417f;font-size:12px;text-align:center}
+
+.tb_reward td.reward{padding-right:15px;font-family:'arial black',arial;font-size:13px;color:#999;font-weight:normal;text-align:right;letter-spacing:0}
+
+.tb_reward td.num_suc{background:#fff ;color:#1c205f}
+
+.tb_reward td.desc{background:#fff;}
+
+.tb_reward td.desc p{margin-top:0;color:#347dc7}
+
+.tb_reward tr.selected .num_suc,.tb_reward tr.selected td.reward{background-color:#4695fe;color:#021f4d}
+
+.tb_reward tr.selected .num_suc{font-weight:bold}
+
+.tb_reward tr.selected td.reward{border-left:0}
+
+.tb_reward tr.success td.num_suc,.tb_reward tr.success td.reward{background-color:#ffc700}
+

@@ -1,0 +1,100 @@
+@charset "EUC-KR";
+
+ .right {
+    position: fixed;
+    left: 280px;
+    bottom:30px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    
+  }
+  .left {
+    position: fixed;
+    right: 280px;
+    bottom:30px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+  }
+  
+  #agree {
+    position :relative;
+    left: 200px;
+    
+  }
+  #login1{
+    position :relative;
+    left: 230px;
+  }
+  #basket {
+    position :relative;
+    left: 260px;
+  }
+  #order {
+    position :relative;
+    left: 290px;
+  }
+  
+  #notice {
+    position :relative;
+    right: 320px;
+  }
+  
+  #faq {
+    position :relative;
+    right: 290px;
+  }
+  #review {
+    position :relative;
+    right: 260px;
+  }
+  #menu {
+ 
+   background: #1c205f;
+   height: 100px;
+   
+  }
+  .sub{
+   
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+  
+  }
+  
+  #site {
+   position: relative;
+   left: 100px;
+  }
+  
+  #club {
+   position: relative;
+   left: 250px;
+  }
+  
+  #view {
+   position: relative;
+   left: 400px;
+  }
+  
+  #sale {
+   position: relative;
+   left: 550px;
+  }
+  
+  #event {
+   position: relative;
+   left: 700px;
+  }
+  
+  #admin {
+  	position: relative;
+    left: 850px;
+  }
+  #bm {
+   position: relative;
+   top: 750px;
+   border-top: 1px solid;
+  }

@@ -1,0 +1,122 @@
+@charset "EUC-KR";
+
+.right {
+    position: fixed;
+    left: 280px;
+    bottom:30px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    
+  }
+  .left {
+    position: fixed;
+    right: 280px;
+    bottom:30px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+  }
+  
+  #agree {
+    position :relative;
+    left: 200px;
+    
+  }
+  #login1{
+    position :relative;
+    left: 230px;
+  }
+  #basket {
+    position :relative;
+    left: 260px;
+  }
+  #order {
+    position :relative;
+    left: 290px;
+  }
+  
+   #notice {
+    position :relative;
+    right: 320px;
+  }
+  
+  #faq {
+    position :relative;
+    right: 290px;
+  }
+  #review {
+    position :relative;
+    right: 260px;
+  }
+  #menu {
+ 
+   background: #1c205f;
+   height: 100px;
+   
+  }
+  .sub{
+   
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+  
+  }
+  
+  #site {
+   position: relative;
+   left: 160px;
+  }
+  
+  #club {
+   position: relative;
+   left: 360px;
+  }
+  
+  #view {
+   position: relative;
+   left: 560px;
+  }
+  
+  #sale {
+   position: relative;
+   left: 760px;
+  }
+  
+  #event {
+   position: relative;
+   left: 960px;
+  }
+  #bm {
+   position: relative;
+   top: 500px;
+   border-top: 1px solid;
+  }
+  #form {
+  position: relative;
+  top: 80px;
+  left: 120px;
+  }
+  #bt {
+  position: relative;
+  top: 10px;
+  left: 400px;
+  }
+  #banner {
+   position: relative;
+   top: 40px; 
+  }
+  #help {
+   position: relative;
+   left: 320px;
+   top: 60px;
+   background-color: #1c205f;
+   color: white;
+   width: 1000px;
+   height: 30px; 
+   font-weight: bold;
+   line-height: 30px;
+ 
+  }
+  
